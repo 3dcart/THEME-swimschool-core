@@ -1027,9 +1027,9 @@ span.freeshipping {
 
 
 
-#listing #realmediaBlock, #listing #addl-images, #listing .special-actions, #listing .social-bookmarking, #listing .addToCartBlock .btn-addcart i{
+/*#listing #realmediaBlock, #listing #addl-images, #listing .special-actions, #listing .social-bookmarking, #listing .addToCartBlock .btn-addcart i{
     display: none;
-}
+}*/
 #listing .product-details .page_headers, #quickView #add .page_headers{
     font-family: 'Architects Daughter', cursive;
     font-size: 24px;
