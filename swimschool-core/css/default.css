@@ -7,6 +7,21 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 }
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
 .page-content {
 	flex: 1 0 auto;
 }
@@ -419,7 +434,7 @@ ul.sidebarUL > li > a{
 	text-align: center;
     margin-bottom: 10px;
 }
-.mailist-box h3 {
+.mailist-box h3,.mailist-box h2{
     font-size: 45px;
     line-height: 42px;
     font-family: 'Architects Daughter', cursive;
@@ -441,7 +456,7 @@ ul.sidebarUL > li > a{
 .mailinglist-submit {
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: 0;color:#000;
 	font-family: 'Architects Daughter', cursive;
     float: right;
     min-width: 180px;
@@ -540,6 +555,7 @@ ul.social-icons li.social-icons-label {
 .reviews-stars {
     color: #ffd700;
 }
+.product-item .on-sale-badge{background-color: #8A2436;}
 .product-items .product-item .name{
 	text-align: center;
 	height: 75px;
@@ -559,7 +575,7 @@ ul.social-icons li.social-icons-label {
     text-decoration: line-through;
 }
 .sale-price {
-    color: #d04b64;
+    color: #9E293E;
 }
 del.original-price {
     font-weight: 500;
@@ -618,7 +634,7 @@ span.freeshipping {
 }
 .product-item .action .btn{
 	font-family: 'Raleway', sans-serif;
-	color: #fff;
+	color: #000;
 	width: 100%;
 	background-color: #03b2d9;
 	border: 1px solid #03b2d9;
@@ -691,12 +707,12 @@ span.freeshipping {
     background-color: #fff;
     padding: 30px 0;
 }
-.products-section h2 {
+.products-section h2,.products-section h1 {
 	font-family: 'Architects Daughter', cursive;
     margin: 0;
     font-size: 24px;
 }
-.products-section h2 {
+.products-section h2,.products-section h1 {
     font-size: 24px;
     line-height: 1;
     font-weight: 600;
@@ -706,7 +722,7 @@ span.freeshipping {
     border: none;
     position: relative;
 }
-.products-section h2:after {
+.products-section h2:after,.products-section h1:after {
     content: "";
     width: 60px;
     height: 1px;
@@ -1139,7 +1155,7 @@ span.freeshipping {
 	.mailist-box{
 		max-width: 100%;
 	}
-	.mailist-box h3{
+	.mailist-box h3,.mailist-box h2{
 	    font-size: 32px;
 	}
 	.navbar-inverse .navbar-nav > li > a{
