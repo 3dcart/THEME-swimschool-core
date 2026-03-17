@@ -28,6 +28,9 @@ height:auto;
 footer {
 	flex-shrink: 0;
 }
+.sub-section{
+	clear:both;
+}
 .product-items.productList .product-item .product-content {
     text-align: left;
 }
